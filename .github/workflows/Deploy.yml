@@ -18,11 +18,7 @@ jobs:
       with:
         node-version: '16'
 
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build
-      run: npm run build  # Modify this command based on the build command for your project
+    
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
